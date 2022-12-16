@@ -22,8 +22,8 @@ for elt in a :
 
 Questions = ['Question 1 : Quel est le film le plus long ?','Question 2 : Quels sont les 5 films les mieux notés ?','Question 3 : Dans combien de films a joué Morgan Freeman ? Tom Cruise ?','Question 4 : Quels sont les 3 meilleurs films d’horreur ? Dramatique ? Comique ?','Question 5 : Parmi les 100 films les mieux notés, quel pourcentage sont américains ? Français ?','Question 6 : Quel est la durée moyenne d’un film en fonction du genre ?']
 
-brief = st.selectbox('Brief',Questions)
-if brief :
+# brief = st.selectbox('Brief',Questions)
+# if brief :
 
 
 title = st.selectbox('Top 250 des FOAT',all_titles, format_func=lambda x:'Entrez un titre de film' if x == '' else x)
